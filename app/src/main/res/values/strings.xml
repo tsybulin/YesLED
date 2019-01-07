@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">YesLED</string>
+    <string name="permissions">PERMS</string>
+    <string name="preferences">PREFS</string>
+    <string name="notifications">NOTIFS</string>
+    <string name="led_service">Led Service</string>
+    <string name="running">Running</string>
+    <string name="last_ten">Last 20 notifications</string>
+    <string name="service_channel_description">Channel for ongoing service notification</string>
+    <string name="app_channel_description">Channel for app notifications</string>
+    <string name="reload">RELOAD</string>
+    <string name="save">SAVE</string>
+    <string name="empty">E M P T Y</string>
+</resources>

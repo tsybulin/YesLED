@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <ImageView
+        android:id="@+id/fragments_last_recycler_item_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@color/colorAccent"
+        tools:src="@tools:sample/avatars"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/fragments_last_recycler_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:textStyle="bold"
+        tools:text="@tools:sample/full_names"/>
+
+    <TextView
+        android:id="@+id/fragments_last_recycler_item_pkgname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="24dp"
+        android:textStyle="italic"
+        tools:text="@tools:sample/last_names"/>
+
+    <CheckBox
+        android:id="@+id/fragments_last_recycler_item_checked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center_vertical"
+        android:text="@null"
+        />
+
+</FrameLayout>

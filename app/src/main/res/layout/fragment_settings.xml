@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SettingsFragment">
+
+    <Button
+        android:id="@+id/fragments_settings_btn_reload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin ="16dp"
+        android:layout_gravity="bottom"
+        android:text="@string/reload"/>
+
+    <Button
+        android:id="@+id/fragments_settings_btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin ="16dp"
+        android:layout_gravity="bottom|end"
+        android:text="@string/save"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fragments_settings_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="72dp"
+        app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+        tools:listitem="@layout/fragment_settings_recycler_item"
+        />
+
+    <ProgressBar
+        android:id="@+id/fragments_settings_loading"
+        android:indeterminate="true"
+        android:indeterminateOnly="true"
+        android:progress="0"
+        android:secondaryProgress="0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        style="?android:attr/progressBarStyleLarge"/>
+</FrameLayout>
