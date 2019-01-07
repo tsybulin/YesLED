@@ -6,7 +6,7 @@ android {
         applicationId "com.tsybulin.yesled"
         minSdkVersion 27
         targetSdkVersion 27
-        versionCode 13
+        versionCode 14
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         setProperty("archivesBaseName", "YesLED-$versionName-$versionCode")

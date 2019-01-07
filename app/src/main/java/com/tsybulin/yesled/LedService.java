@@ -110,7 +110,7 @@ public class LedService extends NotificationListenerService {
             return ;
         }
 
-        ledHandler.sendMessageDelayed(ledHandler.obtainMessage(CMD_NOTIF_POSTED, sbn), 5000L)  ;
+        ledHandler.sendMessage(ledHandler.obtainMessage(CMD_NOTIF_POSTED, sbn))  ;
     }
 
     @Override
