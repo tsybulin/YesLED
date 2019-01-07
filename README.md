@@ -1,6 +1,8 @@
 # YesLED
 AOD notifications for OnePlus 6T
 
+![screen](doc/YesLED.png)
+
 ## Setup howto:
 Open app
 
